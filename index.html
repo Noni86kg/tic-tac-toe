@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="/style.css" />
+    <script type="module" src="/index.js"></script>
+    <title>Tic Tac Toe</title>
+  </head>
+
+  <body>
+    <header>
+      <div class="player-score">
+        <p>Player One: <span class="player-one-score">0</span></p>
+      </div>
+      <div class="heading">
+        <h1>Tic Tac Toe</h1>
+      </div>
+      <div class="player-score">
+        <p>Player Two: <span class="player-two-score">0</span></p>
+      </div>
+    </header>
+    <p class="text">Player one is on the move</p>
+    <div class="table">
+      <button class="btn" id="0_0" name="0_0"></button>
+      <button class="btn" id="0_1" name="0_1"></button>
+      <button class="btn" id="0_2" name="0_2"></button>
+      <button class="btn" id="1_0" name="1_0"></button>
+      <button class="btn" id="1_1" name="1_1"></button>
+      <button class="btn" id="1_2" name="1_2"></button>
+      <button class="btn" id="2_0" name="2_0"></button>
+      <button class="btn" id="2_1" name="2_1"></button>
+      <button class="btn" id="2_2" name="2_2"></button>
+    </div>
+    <button class="restart">Restart</button>
+    <div class="overlay">
+      <p class="winner-text">Player One is winner</p>
+      <div class="firework"></div>
+      <div class="firework"></div>
+      <div class="firework"></div>
+    </div>
+  </body>
+</html>
